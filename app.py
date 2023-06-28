@@ -1,6 +1,6 @@
 import pyttsx3
 talk = pyttsx3.init()
-speech = input("say:")
+speech = input("write:")
 rate = talk.getProperty('rate')
 print(rate)
 talk.setProperty('rate', 140)
